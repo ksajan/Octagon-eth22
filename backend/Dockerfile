@@ -16,5 +16,5 @@ COPY . $APP_HOME/
 
 RUN pip install -r requirements.txt
 
-CMD ["python", "app.main:app", "--host", "0.0.0.0", "--port", "80"]
+CMD ["python", "main.py"]
 
